@@ -46,6 +46,7 @@ template "/content/sites/#{sitename}/index.html" do
         variables(
                 :site_title => data["site_title"],
                 :commingsoon => "Comming Soon!",
+		:author_name => node["author"]["name"]
         )
 	notifies :restart, "service[httpd]"
 end
