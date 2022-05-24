@@ -101,7 +101,7 @@ GEM
     foodcritic (6.1.1)
       cucumber-core (>= 1.3)
       erubis
-      nokogiri (>= 1.5, < 2.0)
+      nokogiri (>= 1.13.6, < 2.0)
       rake
       rufus-lru (~> 1.0)
       treetop (~> 1.4)
